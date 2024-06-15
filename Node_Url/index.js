@@ -1,3 +1,6 @@
+/* Certainly! In Node.js, the url module is a built-in module that provides utilities for URL resolution and parsing. 
+It's commonly used to work with URLs and their various components. */
+
 const http =  require("http");
 const url =  require("url");
 const fs =  require("fs");
@@ -39,3 +42,4 @@ const PORT = 8000;
 myServer.listen(PORT , () => {
     console.log(`Server Running on Port ${PORT}`);
 })
+
