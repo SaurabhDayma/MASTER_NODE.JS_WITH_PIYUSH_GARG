@@ -15,7 +15,7 @@ app.get('/users', (req,res)=>{
       </ul>
     `
     res.send(html);
-})
+}) 
 
 // REST API
 app.get('/api/users', (req, res) =>{

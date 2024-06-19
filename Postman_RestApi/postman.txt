@@ -1,0 +1,18 @@
+What is Postman?
+Postman is an API development and testing platform that helps developers build, test, and document APIs more efficiently. 
+It is available as a desktop application for Windows, macOS, and Linux, as well as a web-based version.
+
+Key Features of Postman
+
+HTTP Request Builder: Postman allows you to create and send HTTP requests (GET, POST, PUT, DELETE, etc.) to APIs, with the ability to customize headers, query parameters, and request bodies.
+
+Response Viewer: Postman displays the response from the API, including the status code, headers, and response body, making it easier to analyze the API's behavior.
+
+Environment Management: Postman supports the creation of environments, which are sets of variables that can be used across multiple requests. 
+This is useful for managing different environments (e.g., development, staging, production) and their respective configurations.
+
+Collection Management: Postman allows you to group related API requests into collections, which can be organized and versioned, making it easier to manage and share your API testing workflows.
+
+Scripting and Automation: Postman supports the use of JavaScript for writing test scripts, automating API workflows, and performing various other tasks.
+
+Documentation: Postman can generate documentation for your APIs, which can be shared with other team members or stakeholders.
