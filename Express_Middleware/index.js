@@ -10,6 +10,7 @@ const app =  express();
 //Middleware 
 app.use(express.urlencoded({express : false}));
 
+// Middleware 2
 app.use((req, res, next) => {
     fs.appendFile("./log.txt" , `${Date.now()} : ${req.method} : ${req.path}` , (err,data) => {
         next();
@@ -38,7 +39,6 @@ app.post('/api/users', (req,res) => {
      })
 
 })
-
 
 const PORT = 8000;
 app.listen(PORT, () =>{

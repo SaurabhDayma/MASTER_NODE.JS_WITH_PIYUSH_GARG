@@ -1,0 +1,6 @@
+   Model View Controller
+   ------------------------
+          Model
+          /   \ 
+        /       \
+      View     Contoller
