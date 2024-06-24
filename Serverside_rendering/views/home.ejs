@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Short Url Project</h1>
+    <% if (locals.id) { %>
+      <p>New Url Genrated : http://localhost:8000/url/<%= id %></p>
+    <% } %>
+    <div>
+        <form action="/url" method="post">
+            <label for="/url">Enter your URL</label>
+            <input placeholder="http://localhost:8000" type="text" name="url"/>
+            <button type="submit"> Genrate </button>
+        </form>
+    </div>
+</body>
+</html>
